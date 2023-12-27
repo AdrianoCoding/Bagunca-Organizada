@@ -1,0 +1,12 @@
+*{
+    background-color: #000000;
+    background-image: url(image/background-gif.gif);
+    color: rgb(0, 243, 12);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mes-start{
+    text-align: center;
+    background-color: #000000;
+    box-shadow: #8709a7 5px 5px 5px 5px;
+}
