@@ -1,12 +1,21 @@
+@font-face {
+    font-family: 'MinecraftFont';
+    src: url('fonts/minecraft-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
 *{
     background-color: #000000;
     background-image: url(image/background-gif.gif);
     color: rgb(0, 243, 12);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'MinecraftFont';
 }
 
 .mes-start{
     text-align: center;
     background-color: #000000;
-    box-shadow: #8709a7 5px 5px 5px 5px;
+    box-shadow: 9px 6px #7a04eb;
+   
 }
