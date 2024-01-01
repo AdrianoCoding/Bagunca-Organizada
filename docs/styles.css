@@ -1,0 +1,19 @@
+body.dark-theme {
+    background-color: #111;
+    color: white;
+    font-family: 'Courier Prime', monospace;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #subscribeForm {
+    margin-top: 20px;
+  }
+  

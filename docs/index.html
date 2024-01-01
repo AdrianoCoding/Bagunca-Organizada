@@ -13,16 +13,24 @@
     ========================================
 
 -->
-
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MinimaS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+<body class="dark-theme">
+    <div class="container">
+        <h1>MinimaS</h1>
+        <p>Estaremos disponíveis em breve.</p>
+        <form action="subscribe.php" method="post">
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui...">
+            <input type="submit" value="Cadastrar">
+        </form>
+        <p id="confirmationMessage" class="hidden"></p>
+    </div>
 </body>
 </html>
