@@ -42,6 +42,15 @@ body{
     margin: 20px;
 }
 
+.contact li{
+    padding-top: 10px;
+}
+
+.contact li :hover{
+    color: #e62806;
+    text-decoration: underline wavy #e62806;
+}
+
 h2{
     color: #7a04eb;
     font-size: 40px;   
